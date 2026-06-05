@@ -2,8 +2,10 @@
 
 @theme {
   --color-cream: #EEEBE3;
-  --color-charcoal: #111111;
+  --color-charcoal: #0e0c0a;
   --color-gold: #c9a96e;
+  --color-brown: #2a2520;
+  --color-dark-brown: rgb(26, 23, 20);
 
   --font-display: "Playfair", serif;
   --font-body: "DM Sans", sans-serif;
