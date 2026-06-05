@@ -1,3 +1,4 @@
+import BookBtn from "./BookBtn"
 
 function Services() {
   return (
@@ -27,9 +28,7 @@ function Services() {
             <p className="text-gold text-xl mt-5 font-display">
               Start From $2500
             </p>
-            <button className="mt-5 cursor-pointer px-6 py-3 bg-gold text-charcoal font-bold hover:brightness-70 transition duration-300">
-              Book Now
-            </button>          
+            <BookBtn />          
           </div>
           <div className="bg-dark-brown p-10 text-left ">
             <h3 className="font-bold text-3xl font-display ">
@@ -48,9 +47,7 @@ function Services() {
             <p className="text-gold text-xl mt-5 font-display">
               Start From $2500
             </p>
-            <button className="mt-5 cursor-pointer px-6 py-3 bg-gold text-charcoal font-bold hover:brightness-70 transition duration-300">
-              Book Now
-            </button>          
+            <BookBtn />          
           </div>
           <div className="bg-dark-brown p-10 text-left ">
             <h3 className="font-bold text-3xl font-display ">
@@ -69,9 +66,7 @@ function Services() {
             <p className="text-gold text-xl mt-5 font-display">
               Start From $2500
             </p>
-            <button className="mt-5 cursor-pointer px-6 py-3 bg-gold text-charcoal font-bold hover:brightness-70 transition duration-300">
-              Book Now
-            </button>          
+            <BookBtn />          
           </div>
           
 

@@ -1,3 +1,4 @@
+import BookBtn from "./BookBtn"
 
 function Hero() {
   return (
@@ -14,10 +15,9 @@ function Hero() {
         <p className="pt-5 text-md max-w-md mx-auto">Professional photography and videography services for all your special occasions.</p>
       </div>
       <div className="flex gap-4 mt-10 justify-center">
-        <button className="cursor-pointer px-6 py-3 bg-gold text-charcoal font-bold hover:brightness-70 transition duration-300">
-          Book Now
-        </button>
-        <button className="cursor-pointer px-6 py-3 border border-white text-white font-bold hover:brightness-70 transition duration-300">
+        
+        <BookBtn />
+        <button className="my-4 cursor-pointer px-6 py-3 border border-white text-white font-bold hover:brightness-70 transition duration-300">
           View Portfolio
         </button>
       </div>
