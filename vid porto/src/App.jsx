@@ -1,22 +1,22 @@
 import { useState } from 'react'
 import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import Portofolio from './components/Portofolio'
-import Services from './components/Services'
-import About from './components/About'
+import Hero from './sections/Hero'
+import Portofolio from './sections/Portofolio'
+import Services from './sections/Services'
+import About from './sections/About'
 import './App.css'
 
 function App() {
   return (
     <>
-    <main className="font-body">
+    <body className="font-body overflow-x-clip">
       <Navbar />
       <Hero />
       <Portofolio />
       <Services />
       <About />
 
-    </main>
+    </body>
     
     </>
   )
