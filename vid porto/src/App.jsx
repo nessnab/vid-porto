@@ -9,7 +9,7 @@ import './App.css'
 function App() {
   return (
     <>
-    <body className="font-body overflow-x-clip">
+    <body className="font-body overflow-x-clip bg-charcoal">
       <Navbar />
       <Hero />
       <Portofolio />

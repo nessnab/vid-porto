@@ -41,7 +41,7 @@ function Services() {
   },
 ];
   return (
-    <section className="min-h-screen bg-brown text-cream">
+    <section id="services" className="min-h-screen bg-brown text-cream">
       <div className="container mx-auto px-4 py-20 text-center">
         <p className="text-gold uppercase tracking-widest">
           What We Offer
